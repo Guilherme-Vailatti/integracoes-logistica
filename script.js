@@ -50,61 +50,114 @@ document.addEventListener("DOMContentLoaded", function () {
       <br><br><b>Integrações:</b>
       <ul>
         <li><b>ERP Senior:</b> garante a troca de informações entre as operações logísticas do armazém e os processos de gestão empresarial. A integração é feita via Senior X, utilizando a tecnologia API REST, e exige a presença dos componentes ETL ERP e ERP Service para seu pleno funcionamento. <br><a href="https://documentacao.senior.com.br/wms-alcis/13.0/#wms-13/manuais-integracao/integracao-erp.htm%3FTocPath%3DSenior%2520WMS%2520Alcis%2520Web%2520-%2520Manual%2520do%2520Usu%25C3%25A1rio%7CManuais%2520t%25C3%25A9cnicos%2520e%2520integra%25C3%25A7%25C3%25B5es%7CManuais%2520de%2520integra%25C3%25A7%25C3%25A3o%2520%25E2%2580%2593%2520Senior%2520WMS%2520Alcis%7C_____3">Saiba mais</a>.</li>
-        <li><b>Gestão de Mão de Obra | LMS:</b> permite alinhar a operação do armazém à alocação eficiente dos recursos humanos. Essa integração utiliza a tecnologia API REST. <br><a href="https://documentacao.senior.com.br/wms-alcis/13.0/#wms-13/manuais-integracao/integracao-gestao-mao-de-obra.htm%3FTocPath%3DSenior%2520WMS%2520Alcis%2520Web%2520-%2520Manual%2520do%2520Usu%25C3%25A1rio%7CManuais%2520t%25C3%25A9cnicos%2520e%2520integra%25C3%25A7%25C3%25B5es%7CManuais%2520de%2520integra%25C3%25A7%25C3%25A3o%2520%25E2%2580%2593%2520Senior%2520WMS%2520Alcis%7C_____2">Saiba mais</a>.</li>
+        <li><b>Acesso e Segurança:</b> envia dados de motoristas, veículos, pessoas e agendamentos por meio de eventos da SAM API, como criação e atualização de cadastros e agendamentos de acesso. <br><a href="https://documentacao.senior.com.br/seniorxplatform/manual-do-usuario/yms/#manual-processos/gestao-patio-agendamento/gestao-de-agendamento/integracao/integracao-ronda.htm%3FTocPath%3DGest%25C3%25A3o%2520de%2520P%25C3%25A1tio%2520-%2520Manual%2520do%2520Usu%25C3%25A1rio%7CIntegra%25C3%25A7%25C3%25B5es%7C_____2">Saiba mais</a>.</li>
       </ul>`
-    }
+    },
+    "gestao-frotas": { titulo: "Gestão de Frotas",
+      descricao: `O Gestão de Frotas é um sistema voltado para o controle operacional da frota e dos freteiros.
+      <br><br><b>Integrações:</b>
+      <ul>
+        <li><b>HCM:</b> integra com o HCM para sincronização do cadastro de freteiros, do certo de Contas com Motoristas, Multas de Trânsito, Comissão de Representante e Pagamento de Freteiros. <br><a href="https://documentacao.senior.com.br/gestao-de-frotas-fms/3.31/#integracao/integracao-hcm-fms/home-fms-hcm.htm">Saiba mais</a>.</li> 
+        <li><b>TMS:</b> integra com o sistema de Gestão de Transportes | TMS para o compartilhamento de informações logísticas.</li> 
+        <li><b>ERP XT:</b> integrar os movimentos de controle de abastecimentos, ordens de serviço, adiantamento de viagens, multas de trânsito, acerto de contas, gestão de estoque de oficina e posto interno de combustíveis. <br><a href="https://documentacao.senior.com.br/gestao-de-frotas-fms/3.31/#integracao/integracao-erp-fms/home-fms-erp.htm">Saiba mais</a>.</li> 
+
+        </ul>`
+      },
+      "roteirizador": { titulo: "Roteirizador",
+      descricao: `O Roteirizador é um sistema voltado para o planejamento e otimização de rotas de entrega.
+      <br><br><b>Integrações:</b>
+      <ul>
+        <li><b>Torre de Controle:</b> integra com o Torre de Controle para receber atividades, pedidos e notas, permitindo a roteirização eficiente das entregas. <br><a href="https://documentacao.senior.com.br/roteirizacaoemonitoramento/7.0.0/">Saiba mais</a>.</li> 
+        <li><b>ERP Senior X:</b> integra com o ERP Senior por meio do Senior X para receber atividades, pedidos e notas, viabilizando a roteirização eficiente.</li> 
+        <li><b>TMS:</b> integra com a TMS Transportador para receber atividades, pedidos e notas, permitindo a roteirização eficiente das entregas.</li> 
+
+        </ul>`
+      },
+      "torre-controle": { titulo: "Torre de Controle - RMS",
+      descricao: `O Roteirizador é um sistema voltado para o planejamento e otimização de rotas de entrega.
+      <br><br><b>Integrações:</b>
+      <ul>
+        <li><b>ERP Senior X:</b> integra com o ERP Senior para troca de informações sobre atividades, pedidos e notas, acompanhando a execução via Torre de Controle e a execução de entrega. Para seu funcionamento completo, exige também a utilização de componentes de integração que garantem o fluxo automatizado das informações entre os sistemas. <br><a href="https://documentacao.senior.com.br/roteirizacaoemonitoramento/7.0.0/#https://documentacao.senior.com.br/seniorxplatform/manual-do-usuario/erp#mercado/vendas/integracao-rms.htm%3FTocPath%3DIntegra%25C3%25A7%25C3%25B5es%2520RMS%7C_____4">Saiba mais</a>.</li> 
+        <li><b>WMS Senior:</b> integra com a WMS Senior para troca de atividades, pedidos e notas, acompanhando a execução via Torre de Controle e a execução de entrega. <br><a href="https://documentacao.senior.com.br/roteirizacaoemonitoramento/7.0.0/#integracoes/intregracao-rms-wms.htm%3FTocPath%3DIntegra%25C3%25A7%25C3%25B5es%2520RMS%7C_____2">Saiba mais</a>.</li> 
+        <li><b>TMS:</b> integra com a TMS para troca de atividades, pedidos e notas, possibilitando o acompanhamento da execução e a gestão da entrega via Torre de Controle.</li> 
+        <li><b>Roteirizador:</b> integra com o Roteirizador para receber atividades, pedidos e notas, permitindo o acompanhamento e a execução das entregas via Torre de Controle.</li> 
+        <li><b>Tracking de Pedidos:</b> integra com o Tracking de Pedidos para troca de atividades, pedidos e notas, acompanhando a execução e controle da entrega via Torre de Controle. <br><a href="https://documentacao.senior.com.br/roteirizacaoemonitoramento/7.0.0/#https://documentacao.senior.com.br/gestaodetransportestms/7.0.0#tracking/integracao-torre-controle.htm%3FTocPath%3DIntegra%25C3%25A7%25C3%25B5es%2520RMS%7C_____5">Saiba mais</a>.</li> 
+
+        </ul>`
+      },
+      "tracking-pedidos": { titulo: "Tracking de Pedidos",
+      descricao: `O Tracking de Pedidos é um sistema voltado para o monitoramento das entregas. .
+      <br><br><b>Integrações:</b>
+      <ul>
+        <li><b>Torre de Controle - RMS:</b> troca de atividades, pedidos e notas, acompanhando a execução e controle da entrega via Torre de Controle.</li> 
+        <li><b>ERP Senior:</b> integra com a WMS Senior para troca de atividades, pedidos e notas, acompanhando a execução via Torre de Controle e a execução de entrega. <br><a href="https://documentacao.senior.com.br/roteirizacaoemonitoramento/7.0.0/#integracoes/intregracao-rms-wms.htm%3FTocPath%3DIntegra%25C3%25A7%25C3%25B5es%2520RMS%7C_____2">Saiba mais</a>.</li> 
+  
+        </ul>`
+      },
+       "gko-frete": { titulo: "GKO Frete",
+      descricao: `O Tracking de Pedidos é um sistema voltado para o monitoramento das entregas. .
+      <br><br><b>Integrações:</b>
+      <ul>
+        <li><b>ERP Senior:</b> oferece uma gestão completa do transporte, permitindo a comunicação entre os sistemas por meio da integração de NF-e e Fatura via API. Essa integração otimiza o processo de emissão e controle fiscal, garantindo a sincronia das informações entre o planejamento de transporte e a gestão financeira e fiscal. <br><a href="https://documentacao.senior.com.br/gestao-de-fretes-gko/6.85/#manual-processos/integracoes/integracao-erp-senior.htm%3FTocPath%3DTMS%2520Embarcador%2520%257C%2520Senior%2520GKO%2520Frete%2520-%2520Manual%2520do%2520Usu%25C3%25A1rio%2520%7CIntegra%25C3%25A7%25C3%25B5es%7C_____1">Saiba mais</a>.</li> 
+        <li><b>Confirma Fácil:</b> otimiza o monitoramento e a gestão de entregas. A integração é realizada de duas formas: através da integração de NF-e via API e CSV, e pela integração de Ocorrência via CSV.</li> 
+        <li><b>Plataforma de Fretes:</b> proporcionando uma comunicação abrangente para a gestão logística, permitindoo compartilhamento de ofertas de frete pré-cadastradas. A integração é feita via Webhook e Frete Combinado via API (xml) para Pedidos e Faturas. <br><a href="https://documentacao.senior.com.br/gestao-de-fretes-gko/6.85/#manual-processos/integracoes/integracao-plataforma-fretes.htm%3FTocPath%3DTMS%2520Embarcador%2520%257C%2520Senior%2520GKO%2520Frete%2520-%2520Manual%2520do%2520Usu%25C3%25A1rio%2520%7CIntegra%25C3%25A7%25C3%25B5es%7C_____2">Saiba mais</a>.</li> 
+
+        </ul>`
+      }
   };
 
-  // Clique em ícones com a classe .item
-  document.querySelectorAll(".item").forEach(item => {
-    item.addEventListener("click", function (e) {
-      e.preventDefault();
-      e.stopPropagation();
+function resetVisualizacao() {
+  hideAllBackgrounds();
+  if (defaultBg) {
+    defaultBg.style.display = "block";
+    setTimeout(() => defaultBg.style.opacity = "1", 30);
+  }
+  document.getElementById("modal").classList.add("hidden");
+}
 
-      const id = this.getAttribute("id");
-      if (!id) return;
+// Clique em ícones com a classe .item
+document.querySelectorAll(".item").forEach(item => {
+  item.addEventListener("click", function (e) {
+    e.preventDefault();
+    e.stopPropagation();
 
-      // Mostrar fundo específico
-      const targetBg = document.querySelector(`.background-${id}`);
-      hideAllBackgrounds();
-      if (targetBg) {
-        targetBg.style.display = "block";
-        setTimeout(() => targetBg.style.opacity = "1", 30);
-      }
+    const id = this.getAttribute("id");
+    if (!id) return;
 
-      // Mostrar modal com conteúdo
-      const modal = document.getElementById("modal");
-      const title = document.getElementById("modalTitulo");
-      const desc = document.getElementById("modalDescricao");
+    const targetBg = document.querySelector(`.background-${id}`);
+    hideAllBackgrounds();
+    if (targetBg) {
+      targetBg.style.display = "block";
+      setTimeout(() => targetBg.style.opacity = "1", 30);
+    }
 
-      if (conteudo[id]) {
-        title.textContent = conteudo[id].titulo;
-        desc.innerHTML = conteudo[id].descricao;
-        modal.classList.remove("hidden");
-      }
-    });
-  });
+    const modal = document.getElementById("modal");
+    const title = document.getElementById("modalTitulo");
+    const desc = document.getElementById("modalDescricao");
 
-  // Clique fora de .item: reseta fundo
-  document.addEventListener("click", function (e) {
-    if (!e.target.closest(".item") && !e.target.closest("#modal")) {
-      hideAllBackgrounds();
-      if (defaultBg) {
-        defaultBg.style.display = "block";
-        setTimeout(() => defaultBg.style.opacity = "1", 30);
-      }
-
-      document.getElementById("modal").classList.add("hidden");
+    if (conteudo[id]) {
+      title.textContent = conteudo[id].titulo;
+      desc.innerHTML = conteudo[id].descricao;
+      modal.classList.remove("hidden");
     }
   });
+});
 
-  // Fechar modal via botão
-  const btnFechar = document.getElementById('fecharModal');
-  if (btnFechar) {
-    btnFechar.addEventListener('click', function () {
-      document.getElementById('modal').classList.add('hidden');
-    });
+// Clique fora de .item: reseta fundo
+document.addEventListener("click", function (e) {
+  if (!e.target.closest(".item") && !e.target.closest("#modal")) {
+    resetVisualizacao();
   }
+});
+
+// Fechar modal via botão
+const btnFechar = document.getElementById('fecharModal');
+if (btnFechar) {
+  btnFechar.addEventListener('click', function () {
+    resetVisualizacao();
+  });
+}
+
 
   // Responsividade do infográfico
   function resizeInfographic() {
