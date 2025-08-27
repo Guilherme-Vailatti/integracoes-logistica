@@ -32,7 +32,9 @@ document.addEventListener("DOMContentLoaded", function () {
       <br><br><b>Integrações:</b>
       <ul>
         <li><b>ERP Senior:</b> permite a troca de informações essenciais entre os sistemas de gestão de armazém e de processos administrativos. Essa integração ocorre via Senior X, utilizando a tecnologia API REST, e requer o uso de componentes ETL, além de ERP Service. <br><a href="https://documentacao.senior.com.br/gestao-armazenagem-wms-wis/6.5/#manual-processos-wis/integracao-entre-sistemas/wis-erp.htm%3FTocPath%3DManual%2520Integra%25C3%25A7%25C3%25A3o%7CIntegra%25C3%25A7%25C3%25B5es%2520com%2520outros%2520sistemas%7C_____2">Saiba mais</a>.</li>
-        <li><b>Gestão de Pátio | YMS:</b> sincroniza as operações do armazém com os processos de controle de pátio. Essa integração é feita via Senior X, utilizando a tecnologia API REST e exige a presença de componentes ETL. <br><a href="https://documentacao.senior.com.br/gestaodearmazenagemwms/8.12/#manuais-wms/integracoes-com-outros-sistemas/integracao-yms-wms.htm%3FTocPath%3DGest%25C3%25A3o%2520de%2520Armazenagem%2520%257C%2520WMS%2520-%2520Manual%2520do%2520usu%25C3%25A1rio%7CIntegra%25C3%25A7%25C3%25A3o%2520REST%2520nativas%7C_____7">Saiba mais</a>.</li>
+        <li><b>Gestão de Pátio | YMS:</b> sincroniza as operações do armazém com os processos de controle de pátio. Essa integração é feita via Senior X, utilizando a tecnologia API REST e exige a presença de componentes ETL.</li>
+        <li><b>Gestão de Mão de Obra | LMS:</b> Integração em construção.</li>
+        <li><b>Roteirizador:</b> Integração em construção.</li>
       </ul>`
     },
 
@@ -42,16 +44,20 @@ document.addEventListener("DOMContentLoaded", function () {
       <ul>
         <li><b>ERP Senior:</b> garante a troca de informações entre as operações logísticas do armazém e os processos de gestão empresarial. A integração é feita via Senior X, utilizando a tecnologia API REST, e exige a presença dos componentes ETL ERP e ERP Service para seu pleno funcionamento. <br><a href="https://documentacao.senior.com.br/wms-alcis/13.0/#wms-13/manuais-integracao/integracao-erp.htm%3FTocPath%3DSenior%2520WMS%2520Alcis%2520Web%2520-%2520Manual%2520do%2520Usu%25C3%25A1rio%7CManuais%2520t%25C3%25A9cnicos%2520e%2520integra%25C3%25A7%25C3%25B5es%7CManuais%2520de%2520integra%25C3%25A7%25C3%25A3o%2520%25E2%2580%2593%2520Senior%2520WMS%2520Alcis%7C_____3">Saiba mais</a>.</li>
         <li><b>Gestão de Mão de Obra | LMS:</b> permite alinhar a operação do armazém à alocação eficiente dos recursos humanos. Essa integração utiliza a tecnologia API REST. <br><a href="https://documentacao.senior.com.br/wms-alcis/13.0/#wms-13/manuais-integracao/integracao-gestao-mao-de-obra.htm%3FTocPath%3DSenior%2520WMS%2520Alcis%2520Web%2520-%2520Manual%2520do%2520Usu%25C3%25A1rio%7CManuais%2520t%25C3%25A9cnicos%2520e%2520integra%25C3%25A7%25C3%25B5es%7CManuais%2520de%2520integra%25C3%25A7%25C3%25A3o%2520%25E2%2580%2593%2520Senior%2520WMS%2520Alcis%7C_____2">Saiba mais</a>.</li>
-      </ul>`
+        </ul>`
     },
 
-    "gestao-patio": { titulo: "Gestão de Pátio",
+    "gestao-patio": { titulo: "Gestão de Pátio | YMS",
       descricao: `O WMS | Alcis é um sistema de gestão de armazéns voltado para o controle e a automação das operações logísticas.
       <br><br><b>Integrações:</b>
       <ul>
         <li><b>ERP Senior:</b> garante a troca de informações entre as operações logísticas do armazém e os processos de gestão empresarial. A integração é feita via Senior X, utilizando a tecnologia API REST, e exige a presença dos componentes ETL ERP e ERP Service para seu pleno funcionamento. <br><a href="https://documentacao.senior.com.br/wms-alcis/13.0/#wms-13/manuais-integracao/integracao-erp.htm%3FTocPath%3DSenior%2520WMS%2520Alcis%2520Web%2520-%2520Manual%2520do%2520Usu%25C3%25A1rio%7CManuais%2520t%25C3%25A9cnicos%2520e%2520integra%25C3%25A7%25C3%25B5es%7CManuais%2520de%2520integra%25C3%25A7%25C3%25A3o%2520%25E2%2580%2593%2520Senior%2520WMS%2520Alcis%7C_____3">Saiba mais</a>.</li>
         <li><b>Acesso e Segurança:</b> envia dados de motoristas, veículos, pessoas e agendamentos por meio de eventos da SAM API, como criação e atualização de cadastros e agendamentos de acesso. <br><a href="https://documentacao.senior.com.br/seniorxplatform/manual-do-usuario/yms/#manual-processos/gestao-patio-agendamento/gestao-de-agendamento/integracao/integracao-ronda.htm%3FTocPath%3DGest%25C3%25A3o%2520de%2520P%25C3%25A1tio%2520-%2520Manual%2520do%2520Usu%25C3%25A1rio%7CIntegra%25C3%25A7%25C3%25B5es%7C_____2">Saiba mais</a>.</li>
-      </ul>`
+        <li><b>WMS WIS:</b> Integração em construção.</li>
+        <li><b>WMS Senior:</b> Integração em construção.</li>
+
+
+        </ul>`
     },
     "gestao-frotas": { titulo: "Gestão de Frotas",
       descricao: `O Gestão de Frotas é um sistema voltado para o controle operacional da frota e dos freteiros.
@@ -63,6 +69,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
         </ul>`
       },
+      "gestao-mao-de-obra": { titulo: "Gestão de Mão de Obra | LMS",
+      descricao: `Texto Texto Texto Texto Texto.
+      <br><br><b>Integrações:</b>
+      <ul>
+        <li><b>WMS Senior</b> texto texto texto texto texto texto.</li>
+        <li><b>WMS Alcis</b> texto texto texto texto texto texto.</li>
+        <li><b>WMS WIS</b> texto texto texto texto texto texto.</li> 
+
+        </ul>`
+      },
       "roteirizador": { titulo: "Roteirizador",
       descricao: `O Roteirizador é um sistema voltado para o planejamento e otimização de rotas de entrega.
       <br><br><b>Integrações:</b>
@@ -70,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <li><b>Torre de Controle:</b> integra com o Torre de Controle para receber atividades, pedidos e notas, permitindo a roteirização eficiente das entregas. <br><a href="https://documentacao.senior.com.br/roteirizacaoemonitoramento/7.0.0/">Saiba mais</a>.</li> 
         <li><b>ERP Senior X:</b> integra com o ERP Senior por meio do Senior X para receber atividades, pedidos e notas, viabilizando a roteirização eficiente.</li> 
         <li><b>TMS:</b> integra com a TMS Transportador para receber atividades, pedidos e notas, permitindo a roteirização eficiente das entregas.</li> 
-
+        <li><b>WMS Senior:</b> Integração em construção.</li>
         </ul>`
       },
       "torre-controle": { titulo: "Torre de Controle - RMS",
@@ -90,8 +106,9 @@ document.addEventListener("DOMContentLoaded", function () {
       <br><br><b>Integrações:</b>
       <ul>
         <li><b>Torre de Controle - RMS:</b> troca de atividades, pedidos e notas, acompanhando a execução e controle da entrega via Torre de Controle.</li> 
-        <li><b>ERP Senior:</b> integra com a WMS Senior para troca de atividades, pedidos e notas, acompanhando a execução via Torre de Controle e a execução de entrega. <br><a href="https://documentacao.senior.com.br/roteirizacaoemonitoramento/7.0.0/#integracoes/intregracao-rms-wms.htm%3FTocPath%3DIntegra%25C3%25A7%25C3%25B5es%2520RMS%7C_____2">Saiba mais</a>.</li> 
-  
+        <li><b>ERP Senior X:</b> integra com a WMS Senior para troca de atividades, pedidos e notas, acompanhando a execução via Torre de Controle e a execução de entrega. <br><a href="https://documentacao.senior.com.br/roteirizacaoemonitoramento/7.0.0/#integracoes/intregracao-rms-wms.htm%3FTocPath%3DIntegra%25C3%25A7%25C3%25B5es%2520RMS%7C_____2">Saiba mais</a>.</li> 
+        <li><b>TMS:</b> Integração em construção.</li>
+        <li><b>WMS Senior:</b> Integração em construção.</li>
         </ul>`
       },
        "gko-frete": { titulo: "GKO Frete",
@@ -102,6 +119,50 @@ document.addEventListener("DOMContentLoaded", function () {
         <li><b>Confirma Fácil:</b> otimiza o monitoramento e a gestão de entregas. A integração é realizada de duas formas: através da integração de NF-e via API e CSV, e pela integração de Ocorrência via CSV.</li> 
         <li><b>Plataforma de Fretes:</b> proporcionando uma comunicação abrangente para a gestão logística, permitindoo compartilhamento de ofertas de frete pré-cadastradas. A integração é feita via Webhook e Frete Combinado via API (xml) para Pedidos e Faturas. <br><a href="https://documentacao.senior.com.br/gestao-de-fretes-gko/6.85/#manual-processos/integracoes/integracao-plataforma-fretes.htm%3FTocPath%3DTMS%2520Embarcador%2520%257C%2520Senior%2520GKO%2520Frete%2520-%2520Manual%2520do%2520Usu%25C3%25A1rio%2520%7CIntegra%25C3%25A7%25C3%25B5es%7C_____2">Saiba mais</a>.</li> 
 
+        </ul>`
+      },
+       "erp-xt": { titulo: "ERP XT",
+      descricao: `Texto texto texto texto texto texto texto texto texto texto texto:</b>
+      <ul>
+        <li><b>Tracking de Pedidos:</b> texto texto.</li> 
+        <li><b>GKO Frete:</b> texto texto.</li> 
+        <li><b>Gestão de Frotas</b>: texto texto.</li>
+        <li><b>Gestão de Pátio | YMS</b>: texto texto.</li> 
+        <li><b>WMS Alcis</b>: texto texto.</li>
+        <li><b>WMS WIS</b>: texto texto.</li>
+        <li><b>WMS Senior</b>: texto texto.</li>
+        </ul>`
+      },
+      "tms": { titulo: "TMS",
+      descricao: `Texto texto texto texto texto texto texto texto texto texto texto:</b>
+      <ul>
+        <li><b>Tracking de Pedidos:</b> texto texto.</li> 
+        <li><b>Roteirizador</b>: texto texto.</li> 
+        <li><b>Torre de Controle | RMS</b>: texto texto.</li>
+        <li><b>WMS Senior</b>: texto texto.</li>
+        <li><b>HCM</b>: texto texto.</li>
+        </ul>`
+      },
+      "erp-x": { titulo: "ERP Senior X",
+      descricao: `Texto texto texto texto texto texto texto texto texto texto texto:</b>
+      <ul>
+        <li><b>WMS X:</b> texto texto.</li> 
+        <li><b>Roteirizador</b>: texto texto.</li> 
+        <li><b>Torre de Controle | RMS</b>: texto texto.</li>
+        <li><b>Tracking de Pedidos</b>: texto texto.</li>
+        </ul>`
+      },
+      "hcm": { titulo: "HCM",
+      descricao: `Texto texto texto texto texto texto texto texto texto texto texto:</b>
+      <ul>
+        <li><b>TMS:</b> texto texto.</li> 
+        <li><b>Gestão de Frotas</b>: texto texto.</li> 
+        </ul>`
+      },
+      "acesso": { titulo: "Acesso e Segurança",
+      descricao: `Texto texto texto texto texto texto texto texto texto texto texto:</b>
+      <ul>
+        <li><b>Gestão de Pátio | YMS:</b> texto texto.</li> 
         </ul>`
       }
   };
