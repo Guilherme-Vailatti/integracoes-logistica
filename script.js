@@ -46,8 +46,8 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     "gestao-patio": { titulo: "Gestão de Pátio | YMS",
-      descricao: `O WMS | Alcis é um sistema de gestão de armazéns voltado para o controle e a automação das operações logísticas.
-      <br><br><b>Integrações:</b>
+      descricao: `
+      <br><b>Integrações:</b>
       <ul>
         <li><b>ERP Senior:</b> garante a troca de informações entre as operações logísticas do armazém e os processos de gestão empresarial. A integração é feita via Senior X, utilizando a tecnologia API REST, e exige a presença dos componentes ETL ERP e ERP Service para seu pleno funcionamento. <br><a href="https://documentacao.senior.com.br/wms-alcis/13.0/#wms-13/manuais-integracao/integracao-erp.htm%3FTocPath%3DSenior%2520WMS%2520Alcis%2520Web%2520-%2520Manual%2520do%2520Usu%25C3%25A1rio%7CManuais%2520t%25C3%25A9cnicos%2520e%2520integra%25C3%25A7%25C3%25B5es%7CManuais%2520de%2520integra%25C3%25A7%25C3%25A3o%2520%25E2%2580%2593%2520Senior%2520WMS%2520Alcis%7C_____3">Saiba mais</a>.</li>
         <li><b>Acesso e Segurança:</b> envia dados de motoristas, veículos, pessoas e agendamentos por meio de eventos da SAM API, como criação e atualização de cadastros e agendamentos de acesso. <br><a href="https://documentacao.senior.com.br/seniorxplatform/manual-do-usuario/yms/#manual-processos/gestao-patio-agendamento/gestao-de-agendamento/integracao/integracao-ronda.htm%3FTocPath%3DGest%25C3%25A3o%2520de%2520P%25C3%25A1tio%2520-%2520Manual%2520do%2520Usu%25C3%25A1rio%7CIntegra%25C3%25A7%25C3%25B5es%7C_____2">Saiba mais</a>.</li>
@@ -86,8 +86,8 @@ document.addEventListener("DOMContentLoaded", function () {
         </ul>`
       },
       "torre-controle": { titulo: "Torre de Controle - RMS",
-      descricao: `O Roteirizador é um sistema voltado para o planejamento e otimização de rotas de entrega.
-      <br><br><b>Integrações:</b>
+      descricao: `
+      <br><b>Integrações:</b>
       <ul>
         <li><b>ERP Senior X:</b> integra com o ERP Senior para troca de informações sobre atividades, pedidos e notas, acompanhando a execução via Torre de Controle e a execução de entrega. Para seu funcionamento completo, exige também a utilização de componentes de integração que garantem o fluxo automatizado das informações entre os sistemas. <br><a href="https://documentacao.senior.com.br/roteirizacaoemonitoramento/7.0.0/#https://documentacao.senior.com.br/seniorxplatform/manual-do-usuario/erp#mercado/vendas/integracao-rms.htm%3FTocPath%3DIntegra%25C3%25A7%25C3%25B5es%2520RMS%7C_____4">Saiba mais</a>.</li> 
         <li><b>WMS Senior:</b> integra com a WMS Senior para troca de atividades, pedidos e notas, acompanhando a execução via Torre de Controle e a execução de entrega. <br><a href="https://documentacao.senior.com.br/roteirizacaoemonitoramento/7.0.0/#integracoes/intregracao-rms-wms.htm%3FTocPath%3DIntegra%25C3%25A7%25C3%25B5es%2520RMS%7C_____2">Saiba mais</a>.</li> 
@@ -102,13 +102,13 @@ document.addEventListener("DOMContentLoaded", function () {
       <br><br><b>Integrações:</b>
       <ul>
         <li><b>Torre de Controle - RMS:</b> troca de atividades, pedidos e notas, acompanhando a execução e controle da entrega via Torre de Controle.</li> 
-        <li><b>ERP Senior X:</b> integra com a WMS Senior para troca de atividades, pedidos e notas, acompanhando a execução via Torre de Controle e a execução de entrega. <br><a href="https://documentacao.senior.com.br/roteirizacaoemonitoramento/7.0.0/#integracoes/intregracao-rms-wms.htm%3FTocPath%3DIntegra%25C3%25A7%25C3%25B5es%2520RMS%7C_____2">Saiba mais</a>.</li> 
+        <li><b>ERP Senior XT:</b> integra com a WMS Senior para troca de atividades, pedidos e notas, acompanhando a execução via Torre de Controle e a execução de entrega. <br><a href="https://documentacao.senior.com.br/roteirizacaoemonitoramento/7.0.0/#integracoes/intregracao-rms-wms.htm%3FTocPath%3DIntegra%25C3%25A7%25C3%25B5es%2520RMS%7C_____2">Saiba mais</a>.</li> 
         <li><b>TMS:</b> oferece integração de atividades, pedidos e notas para acompanhamento da execução das entregas por meio da Torre de Controle.</li>
         <li><b>WMS Senior:</b> oferece Integração de atividades, pedidos e notas com a Torre de Controle para acompanhamento da execução das entregas, tendo como premissa a utilização do roteirizador. A integração envia o status do processo e recebe informações como atividades, pedidos, notas fiscais, alterações, cancelamentos, confirmações de execução e dados dos veículos.</li>
         </ul>`
       },
        "gko-frete": { titulo: "GKO Frete",
-      descricao: `O Tracking de Pedidos é um sistema voltado para o monitoramento das entregas. .
+      descricao: `
       <br><br><b>Integrações:</b>
       <ul>
         <li><b>ERP Senior:</b> oferece uma gestão completa do transporte, permitindo a comunicação entre os sistemas por meio da integração de NF-e e Fatura via API. Essa integração otimiza o processo de emissão e controle fiscal, garantindo a sincronia das informações entre o planejamento de transporte e a gestão financeira e fiscal. <br><a href="https://documentacao.senior.com.br/gestao-de-fretes-gko/6.85/#manual-processos/integracoes/integracao-erp-senior.htm%3FTocPath%3DTMS%2520Embarcador%2520%257C%2520Senior%2520GKO%2520Frete%2520-%2520Manual%2520do%2520Usu%25C3%25A1rio%2520%7CIntegra%25C3%25A7%25C3%25B5es%7C_____1">Saiba mais</a>.</li> 
@@ -118,57 +118,63 @@ document.addEventListener("DOMContentLoaded", function () {
         </ul>`
       },
        "erp-xt": { titulo: "ERP XT",
-      descricao: `Texto texto texto texto texto texto texto texto texto texto texto:</b>
+      descricao: `
+      <br><b>Integrações:</b>
       <ul>
         <li><b>Tracking de Pedidos:</b> texto texto.</li> 
-        <li><b>GKO Frete:</b> texto texto.</li> 
-        <li><b>Gestão de Frotas</b>: texto texto.</li>
-        <li><b>Gestão de Pátio | YMS</b>: texto texto.</li> 
-        <li><b>WMS Alcis</b>: texto texto.</li>
-        <li><b>WMS WIS</b>: texto texto.</li>
-        <li><b>WMS Senior</b>: texto texto.</li>
+        <li><b>GKO Frete:</b> oferece uma gestão completa do transporte, permitindo a comunicação entre os sistemas por meio da integração de NF-e e Fatura via API. <br><a href="https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/#integracoes/logistica/fretes/integracao-gko.htm%3FTocPath%3DSegmentos%7CLog%25C3%25ADstica%7CGest%25C3%25A3o%2520de%2520Fretes%7CGKO%7C_____0">Saiba mais</a>.</li> 
+        <li><b>Gestão de Frotas</b>: integrar os movimentos de controle de abastecimentos, ordens de serviço, adiantamento de viagens, multas de trânsito, acerto de contas, gestão de estoque de oficina e posto interno de combustíveis. <br><a href="https://documentacao.senior.com.br/gestao-de-frotas-fms/3.29/index.htm#integracao/integracao-erp-fms/home-fms-erp.htm">Saiba mais</a>.</li>
+        <li><b>Gestão de Pátio | YMS</b>: garante a troca de informações entre as operações logísticas do armazém e os processos de gestão empresarial. A integração é feita via Senior X, utilizando a tecnologia API REST, e exige a presença dos componentes ETL ERP e ERP Service para seu pleno funcionamento. <br><a href="https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/#manual-processos/agronegocio/integracao-gestao-de-patio.htm%3FTocPath%3DIntegra%25C3%25A7%25C3%25B5es%2520com%2520outros%2520sistemas%7CIntegra%25C3%25A7%25C3%25A3o%2520com%2520Gest%25C3%25A3o%2520de%2520P%25C3%25A1tio%7C_____0">Saiba mais</a>.</li> 
+        <li><b>WMS Alcis</b>: garante a troca de informações entre as operações logísticas do armazém e os processos de gestão empresarial. A integração é feita via Senior X, utilizando a tecnologia API REST, e exige a presença dos componentes ETL ERP e ERP Service para seu pleno funcionamento.</li>
+        <li><b>WMS WIS</b>: permite a troca de informações essenciais entre os sistemas de gestão de armazém e de processos administrativos. Essa integração ocorre via Senior X, utilizando a tecnologia API REST, e requer o uso de componentes ETL, além de ERP Service. <br><a href="https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/#manuais_processos/erpxwmsexpress/introducao.htm%3FTocPath%3DSegmentos%7CLog%25C3%25ADstica%7CGest%25C3%25A3o%2520de%2520Armazenagem%7CWMS%2520WIS%7C_____0">Saiba mais</a>.</li>
+        <li><b>WMS Senior</b>: integra por meio do Senior X, utilizando a tecnologia API REST. Para seu funcionamento completo, exige também o uso de componentes ETL ERP e Web Service.  <br><a href="https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/#integracoes/logistica/armazenagem/wms-senior-alcis/wms.htm%3FTocPath%3DSegmentos%7CLog%25C3%25ADstica%7CGest%25C3%25A3o%2520de%2520Armazenagem%7CWMS%7C_____0">Saiba mais</a>.</li>
         </ul>`
       },
       "tms": { titulo: "TMS",
-      descricao: `Texto texto texto texto texto texto texto texto texto texto texto:</b>
+      descricao: `
+      <br><b>Integrações:</b>
       <ul>
-        <li><b>Tracking de Pedidos:</b> texto texto.</li> 
-        <li><b>Roteirizador</b>: texto texto.</li> 
-        <li><b>Torre de Controle | RMS</b>: texto texto.</li>
-        <li><b>WMS Senior</b>: texto texto.</li>
-        <li><b>HCM</b>: texto texto.</li>
+        <li><b>Tracking de Pedidos:</b> oferece integração de atividades, pedidos e notas para acompanhamento da execução das entregas por meio da Torre de Controle.</li> 
+        <li><b>Roteirizador</b>: integra com o TMS Transportador para receber atividades, pedidos e notas, permitindo a roteirização eficiente das entregas.</li> 
+        <li><b>Torre de Controle | RMS</b>: integra com o TMS para troca de atividades, pedidos e notas, possibilitando o acompanhamento da execução e a gestão da entrega via Torre de Controle. <br><a href="https://documentacao.senior.com.br/gestaodetransportestms/3.31/#integracao/tms-rms/home-tms-rms.htm%3FTocPath%3DManual%2520do%2520Usu%25C3%25A1rio%2520-%2520Gest%25C3%25A3o%2520de%2520Transportes%2520%257C%2520TMS%7CIntegra%25C3%25A7%25C3%25B5es%7CTMS%2520x%2520RMS%7C_____0">Saiba mais</a>.</li>
+        <li><b>WMS Senior</b>: envia dados do armazém para execução do transporte via API REST.</li>
+        <li><b>HCM</b>: integra cadastro de funcionários, afastamentos, contabilização da folha e cartas frete de freteiros. <br><a href="https://documentacao.senior.com.br/gestaodetransportestms/3.31/#integracao/tms-hcm/home-tms-hcm.htm%3FTocPath%3DManual%2520do%2520Usu%25C3%25A1rio%2520-%2520Gest%25C3%25A3o%2520de%2520Transportes%2520%257C%2520TMS%7CIntegra%25C3%25A7%25C3%25B5es%7CTMS%2520x%2520HCM%7C_____0">Saiba mais</a>.</li>
         </ul>`
       },
       "erp-x": { titulo: "ERP Senior X",
-      descricao: `Texto texto texto texto texto texto texto texto texto texto texto:</b>
+      descricao: `
+      <br><b>Integrações:</b>
       <ul>
-        <li><b>WMS X:</b> texto texto.</li> 
-        <li><b>Roteirizador</b>: texto texto.</li> 
-        <li><b>Torre de Controle | RMS</b>: texto texto.</li>
-        <li><b>Tracking de Pedidos</b>: texto texto.</li>
+        <li><b>WMS X:</b> WMS X e o ERP X já vêm integrados de forma nativa. Compartilham os mesmos cadastros (como produtos, clientes, etc.) e se comunicam diretamente por meio de APIs. <br><a href="https://documentacao.senior.com.br/seniorxplatform/manual-do-usuario/wms-x/#manual-processos/api-integracoes/integra-wms-x-sistemas-terceiros.htm">Saiba mais</a>.</li> 
+        <li><b>Roteirizador</b>: integra com o ERP Senior por meio do Senior X para receber atividades, pedidos e notas, viabilizando a roteirização eficiente. <br><a href="https://documentacao.senior.com.br/roteirizacaoemonitoramento/7.0.0/">Saiba mais</a>.</li> 
+        <li><b>Torre de Controle | RMS</b>: Integração de atividades/pedidos/notas para acompanhar a execução via Torre de Controle a execução de entrega. OBS: Premissa ter o Roteirizador. (*Envia: Status da Integração *Recebe: Atividades/Pedidos/Notas, Alterações e Dados do Veículo). <br><a href="https://documentacao.senior.com.br/roteirizacaoemonitoramento/7.0.0/">Saiba mais</a>.</li>
         </ul>`
       },
       "hcm": { titulo: "HCM",
-      descricao: `Texto texto texto texto texto texto texto texto texto texto texto:</b>
+      descricao: `
+      <br><b>Integrações:</b>
       <ul>
-        <li><b>TMS:</b> texto texto.</li> 
-        <li><b>Gestão de Frotas</b>: texto texto.</li> 
+        <li><b>TMS:</b> integra cadastro de funcionários, afastamentos, contabilização da folha e cartas frete de freteiros. <br><a href="https://documentacao.senior.com.br/gestao-de-pessoas-hcm/6.10.4/#integracoes/gestao-transportes-tms.htm%3FTocPath%3DGest%25C3%25A3o%2520de%2520Pessoas%2520-%2520Manual%2520do%2520Usu%25C3%25A1rio%7CIntegra%25C3%25A7%25C3%25B5es%2520com%2520outros%2520sistemas%7C_____4">Saiba mais</a>.</li> 
+        <li><b>Gestão de Frotas</b>: integração do cadastro de freteiros e histórico de filial com o Gestão de Pessoas | HCM para envio ao eSocial.</li> 
         </ul>`
       },
       "acesso": { titulo: "Acesso e Segurança",
-      descricao: `Texto texto texto texto texto texto texto texto texto texto texto:</b>
+      descricao: `
+      <br><b>Integrações:</b>
       <ul>
-        <li><b>Gestão de Pátio | YMS:</b> texto texto.</li> 
+        <li><b>Gestão de Pátio | YMS:</b> envia dados de motoristas, veículos, pessoas e agendamentos por meio de eventos da SAM API, como criação e atualização de cadastros e agendamentos de acesso.</li> 
         </ul>`
       },
       "plataforma-frete": { titulo: "Plataforma de Frete",
-      descricao: `</b>
+      descricao: `
+      <br><b>Integrações:</b>
       <ul>
         <li><b>GKO Frete:</b> integração via WebHook para recebimento de Pedidos, Notas Fiscais, Faturas, e integração via API para envio das ofertas como Frete Combinado e envio de CTE. <br><a href="https://documentacao.senior.com.br/plataforma-fretes/1.0/#manual-processos/integracao-gko-frete.htm%3FTocPath%3DPlataforma%2520de%2520Fretes%2520-%2520Manual%2520de%2520Usu%25C3%25A1rio%7CIntegra%25C3%25A7%25C3%25B5es%7C_____1">Saiba mais</a></li> 
         </ul>`
       },
       "confirma-facil": { titulo: "Confirma Fácil",
-      descricao: `</b>
+      descricao: `
+      <br><b>Integrações:</b>
       <ul>
         <li><b>GKO Frete:</b> integração de Notas Fiscais via API e CSV. Integração de Ocorrência via CSV.</li> 
         </ul>`
