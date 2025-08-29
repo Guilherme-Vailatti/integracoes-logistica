@@ -225,6 +225,7 @@ body, html {
 
 .new-items img {
     width: 80px;
+    cursor: pointer;
     transition: 0.3s ease-in-out;
     transform: scale(1);
 }
