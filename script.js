@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <ul>
         <li><b>ERP Senior:</b> integra por meio do Senior X, utilizando a tecnologia API REST. Para seu funcionamento completo, exige também o uso de componentes ETL ERP e Web Service. <br><a href="https://documentacao.senior.com.br/gestaodearmazenagemwms/8.12/#manuais-wms/integracoes-com-outros-sistemas/integracao-senior-entre-erp-e-silt-wms.html%3FTocPath%3DGest%25C3%25A3o%2520de%2520Armazenagem%2520%257C%2520WMS%2520-%2520Manual%2520do%2520usu%25C3%25A1rio%7CIntegra%25C3%25A7%25C3%25A3o%2520REST%2520nativas%7C_____1">Saiba mais</a>.</li>
         <li><b>Gestão de Pátio | YMS:</b> coordena operações entre armazém e pátio logístico via API REST. <br><a href="https://documentacao.senior.com.br/gestaodearmazenagemwms/8.12/#manuais-wms/integracoes-com-outros-sistemas/integracao-yms-wms.htm%3FTocPath%3DGest%25C3%25A3o%2520de%2520Armazenagem%2520%257C%2520WMS%2520-%2520Manual%2520do%2520usu%25C3%25A1rio%7CIntegra%25C3%25A7%25C3%25A3o%2520REST%2520nativas%7C_____7">Saiba mais</a>.</li>
-        <li><b>Gestão da Mão de Obra | LMS:</b> alinha a operação à alocação de recursos via API REST + ETL. <br><a href="https://documentacao.senior.com.br/gestaodearmazenagemwms/8.12/#manuais-wms/integracoes-com-outros-sistemas/integracao-wms-x-lms.html%3FTocPath%3DGest%25C3%25A3o%2520de%2520Armazenagem%2520%257C%2520WMS%2520-%2520Manual%2520do%2520usu%25C3%25A1rio%7CIntegra%25C3%25A7%25C3%25A3o%2520REST%2520nativas%7C_____4">Saiba mais</a>.</li>
+        <li><b>Gestão da Mão de Obra:</b> alinha a operação à alocação de recursos via API REST + ETL. <br><a href="https://documentacao.senior.com.br/gestaodearmazenagemwms/8.12/#manuais-wms/integracoes-com-outros-sistemas/integracao-wms-x-lms.html%3FTocPath%3DGest%25C3%25A3o%2520de%2520Armazenagem%2520%257C%2520WMS%2520-%2520Manual%2520do%2520usu%25C3%25A1rio%7CIntegra%25C3%25A7%25C3%25A3o%2520REST%2520nativas%7C_____4">Saiba mais</a>.</li>
         <li><b>TMS Transportador:</b> envia dados do armazém para execução do transporte via API REST. <br><a href="https://documentacao.senior.com.br/gestaodearmazenagemwms/8.12/#manuais-wms/integracoes-com-outros-sistemas/integracao-wms-rms-tms.html%3FTocPath%3DGest%25C3%25A3o%2520de%2520Armazenagem%2520%257C%2520WMS%2520-%2520Manual%2520do%2520usu%25C3%25A1rio%7CIntegra%25C3%25A7%25C3%25A3o%2520REST%2520nativas%7C_____2">Saiba mais</a>.</li>
         <li><b>Roteirizador:</b> troca eficiente de informações via API REST. <br><a href="https://documentacao.senior.com.br/gestaodearmazenagemwms/8.12/#manuais-wms/integracoes-com-outros-sistemas/integracao-wms-rms-tms.html%3FTocPath%3DGest%25C3%25A3o%2520de%2520Armazenagem%2520%257C%2520WMS%2520-%2520Manual%2520do%2520usu%25C3%25A1rio%7CIntegra%25C3%25A7%25C3%25A3o%2520REST%2520nativas%7C_____2">Saiba mais</a>.</li>
         <li><b>Torre de Controle:</b> integração via API REST para visibilidade e controle. <br><a href="https://documentacao.senior.com.br/gestaodearmazenagemwms/8.12/#manuais-wms/integracoes-com-outros-sistemas/integracao-wms-rms-tms.html%3FTocPath%3DGest%25C3%25A3o%2520de%2520Armazenagem%2520%257C%2520WMS%2520-%2520Manual%2520do%2520usu%25C3%25A1rio%7CIntegra%25C3%25A7%25C3%25A3o%2520REST%2520nativas%7C_____2">Saiba mais</a>.</li>
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <br><br><b>Integrações:</b>
       <ul>
         <li><b>ERP Senior:</b> garante a troca de informações entre as operações logísticas do armazém e os processos de gestão empresarial. A integração é feita via Senior X, utilizando a tecnologia API REST, e exige a presença dos componentes ETL ERP e ERP Service para seu pleno funcionamento. <br><a href="https://documentacao.senior.com.br/wms-alcis/13.0/#wms-13/manuais-integracao/integracao-erp.htm%3FTocPath%3DSenior%2520WMS%2520Alcis%2520Web%2520-%2520Manual%2520do%2520Usu%25C3%25A1rio%7CManuais%2520t%25C3%25A9cnicos%2520e%2520integra%25C3%25A7%25C3%25B5es%7CManuais%2520de%2520integra%25C3%25A7%25C3%25A3o%2520%25E2%2580%2593%2520Senior%2520WMS%2520Alcis%7C_____3">Saiba mais</a>.</li>
-        <li><b>Gestão de Mão de Obra | LMS:</b> permite alinhar a operação do armazém à alocação eficiente dos recursos humanos. Essa integração utiliza a tecnologia API REST. <br><a href="https://documentacao.senior.com.br/wms-alcis/13.0/#wms-13/manuais-integracao/integracao-gestao-mao-de-obra.htm%3FTocPath%3DSenior%2520WMS%2520Alcis%2520Web%2520-%2520Manual%2520do%2520Usu%25C3%25A1rio%7CManuais%2520t%25C3%25A9cnicos%2520e%2520integra%25C3%25A7%25C3%25B5es%7CManuais%2520de%2520integra%25C3%25A7%25C3%25A3o%2520%25E2%2580%2593%2520Senior%2520WMS%2520Alcis%7C_____2">Saiba mais</a>.</li>
+        <li><b>Gestão de Mão de Obra:</b> permite alinhar a operação do armazém à alocação eficiente dos recursos humanos. Essa integração utiliza a tecnologia API REST. <br><a href="https://documentacao.senior.com.br/wms-alcis/13.0/#wms-13/manuais-integracao/integracao-gestao-mao-de-obra.htm%3FTocPath%3DSenior%2520WMS%2520Alcis%2520Web%2520-%2520Manual%2520do%2520Usu%25C3%25A1rio%7CManuais%2520t%25C3%25A9cnicos%2520e%2520integra%25C3%25A7%25C3%25B5es%7CManuais%2520de%2520integra%25C3%25A7%25C3%25A3o%2520%25E2%2580%2593%2520Senior%2520WMS%2520Alcis%7C_____2">Saiba mais</a>.</li>
         </ul>`
     },
     "wms-x": { titulo: "WMS X",
@@ -105,13 +105,13 @@ document.addEventListener("DOMContentLoaded", function () {
         </ul>`
       },
       "tracking-pedidos": { titulo: "Tracking de Pedidos",
-      descricao: `O Tracking de Pedidos é um sistema voltado para o monitoramento das entregas. .
+      descricao: `O Tracking de Pedidos é um sistema voltado para o monitoramento das entregas.
       <br><br><b>Integrações:</b>
       <ul>
-        <li><b>Torre de Controle - RMS:</b> troca de atividades, pedidos e notas, acompanhando a execução e controle da entrega via Torre de Controle.</li> 
-        <li><b>ERP Senior XT:</b> integra com a WMS Senior para troca de atividades, pedidos e notas, acompanhando a execução via Torre de Controle e a execução de entrega. <br><a href="https://documentacao.senior.com.br/roteirizacaoemonitoramento/7.0.0/#integracoes/intregracao-rms-wms.htm%3FTocPath%3DIntegra%25C3%25A7%25C3%25B5es%2520RMS%7C_____2">Saiba mais</a>.</li> 
-        <li><b>TMS:</b> oferece integração de atividades, pedidos e notas para acompanhamento da execução das entregas por meio da Torre de Controle.</li>
-        <li><b>WMS Senior:</b> oferece Integração de atividades, pedidos e notas com a Torre de Controle para acompanhamento da execução das entregas, tendo como premissa a utilização do roteirizador. A integração envia o status do processo e recebe informações como atividades, pedidos, notas fiscais, alterações, cancelamentos, confirmações de execução e dados dos veículos.</li>
+        <li><b>Torre de Controle - RMS:</b> integração de atividades, pedidos e notas fiscais.</li> 
+        <li><b>ERP Senior XT:</b> integração java e microserviçoes.</li> 
+        <li><b>TMS:</b> conteúdo em desenvolvimento.</li>
+        <li><b>WMS Senior:</b> integração via Senior X, utilizando tecnologia de API REST, exigindo componentes ETL.</li>
         </ul>`
       },
        "gko-frete": { titulo: "GKO Frete",
